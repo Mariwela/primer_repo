@@ -1,0 +1,22 @@
+header{
+    text-align: center;
+    border: solid brown 2px;
+    width: 70%;
+    margin: auto;
+    list-style-position: inside;
+    background-color: rgb(220, 186, 141);
+}
+main{
+    width: 70.3%;
+    margin: auto;
+    background-image: url(brookstone_4in_rocky_install_full.jpg);
+    background-size: cover;   
+}
+body{
+    background-color: peachpuff;
+}
+@media screen and (max-width: 900px)   {
+    main{
+        background-image: url(714ac6cba05888964cb3473e583ad306.jpg);
+    }
+}

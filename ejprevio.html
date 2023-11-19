@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link rel="stylesheet" href="stilosEj.css">
+</head>
+<body>
+   <header>
+    <h1>UN HEADER</h1>
+    <ol>
+        <li>Primer elemento con link a la <a href="/ejprevio.html">propia página</a>.</li>
+        <li>Segundo elemento.</li>
+        <li>Tercer elemento con el <a href="segundoLink.html#destino" target="_blank">segundo link</a>.</li>
+        <li>Cuarto elemento.</li>
+    </ol>
+    </header>
+    <main>
+        <details open>
+        <form action="ejemplo.php" method="get">FORMULARIO
+            
+            <fieldset>
+                <legend>Título fieldset</legend><br>
+                <label>Checkbox:
+                    <input type="checkbox" name="checkbox">boton 1
+                    <input type="checkbox" name="checkbox">boton 2
+                    <input type="checkbox" name="checkbox3">boton 3
+                </label><br>
+                <br>
+                <label>Caja de texto 1: <input type="text" name="texto" placeholder="Escribe aquí" size="30"></label>
+                <br>
+                <br>
+                <label>Caja de texto 2: <input type="text" name="texto" placeholder="Escribe aquí" size="30"></label>
+                <br>
+                <br>
+                <label>Calendario: <input type="date" name="calendario"></label>
+            </fieldset><br>
+            <fieldset>
+                <legend>Otro fieldset</legend>
+                <div class="slidecontainer">Deslizador
+                    <input type="range" value="0" min="0" max="255" oninput="this.nextElementSibling.value = this.value">
+                    <output>0</output>  
+                </div>
+                <p>Input de color: <input type="color" name="colorElegido"></p>
+            </fieldset>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </form>
+        </details>
+    </main>  
+</body>
+</html>
